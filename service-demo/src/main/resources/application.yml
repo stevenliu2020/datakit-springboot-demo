@@ -1,0 +1,6 @@
+server:
+  port: 8090
+guance:
+  host:
+    ip: ${HOST_IP:127.0.0.1}
+    name: ${HOST_NAME:k8s-test}
